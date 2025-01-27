@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Data
+comment0.text=\n\ The\ Data\ class\ represents\ a\ generic\ data\ structure\ that\ stores\ \n\ information\ about\ a\ data\ type,\ an\ associated\ value,\ \n\ and\ the\ insertion\ date\ and\ time.\ It\ is\ serializable,\ \n\ meaning\ its\ objects\ can\ be\ converted\ into\ a\ binary\ format\ for\ \n\ persistence\ or\ transmission.\n
+comment1.params=type\ value
+comment1.target=Data(java.lang.String,\ double)
+comment1.text=\n\ \ \ \ Creates\ a\ new\ Data\ object,\ initializing\ the\ type\ and\ value\ attributes\ \n\ \ \ \ with\ the\ provided\ values,\ and\ sets\ the\ insertDateTime\ attribute\ \n\ \ \ \ to\ the\ current\ date\ and\ time.\n
+comment2.params=
+comment2.target=java.lang.String\ getType()
+comment2.text=\n\ \ \ \ Returns\ the\ type\ of\ the\ stored\ data.\n
+comment3.params=
+comment3.target=double\ getValue()
+comment3.text=\n\ \ \ \ Returns\ the\ numerical\ value\ associated\ with\ the\ data.\n
+comment4.params=
+comment4.target=java.time.LocalDateTime\ getInsertDateTime()
+comment4.text=\n\ \ \ \ Returns\ the\ date\ and\ time\ when\ the\ object\ was\ created.\n
+comment5.params=type
+comment5.target=void\ setType(java.lang.String)
+comment5.text=\n\ \ \ \ Updates\ the\ type\ of\ the\ stored\ data.\n
+comment6.params=value
+comment6.target=void\ setValue(double)
+comment6.text=\n\ \ \ \ Updates\ the\ numerical\ value\ associated\ witg\ the\ data.\n
+numComments=7
